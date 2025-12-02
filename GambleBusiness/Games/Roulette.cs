@@ -1,7 +1,8 @@
 ﻿namespace GambleBusiness.Games
 {
-    internal class Roulette
+    public class Roulette
     {
-        int getal = Random.
-    }
+        Random rnd = new Random();
+        int getal = rnd.Next(0,37);
+        int num = rnd.Next(0, 37);
 }
